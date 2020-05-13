@@ -23,7 +23,11 @@ class MulConServer(object):
 
     def client_conn(self, client, address):
         while True:
+<<<<<<< HEAD
             ipstr = address[0] + ":" + str(address[1])
+=======
+            ipstr = address[0] + ":" + str(address[1]) + ">> "
+>>>>>>> afee546... Nur zum testen
             cmd = ""
 
             while cmd == "":
